@@ -33,6 +33,14 @@ public class DNA {
 		//Printing out the index 
 		System.out.println("ATG was found at index: " + stop);
 		
+		//checking for protein in dna
+		if(index != -1 && stop != -1) {
+			System.out.println("Protein found!");
+		}
+		else {
+			System.out.println("No protein found");
+		}
+		
 	}
 
 }
