@@ -18,7 +18,14 @@ public class DNA {
 		
 		//printing out length of dna
 		
-		System.out.println("Length of dna is " + dna.length());
+		System.out.println("Length of dna is: " + dna.length());
+		
+		//finding index of ATG
+		
+		int index = dna.indexOf("ATG");
+		
+		//Printing out the index 
+		System.out.println("ATG was found at index: " + index);
 		
 	}
 
