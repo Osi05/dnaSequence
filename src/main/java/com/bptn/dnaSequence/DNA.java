@@ -27,6 +27,12 @@ public class DNA {
 		//Printing out the index 
 		System.out.println("ATG was found at index: " + index);
 		
+		//finding index of TGA
+		int stop = dna.indexOf("TGA");
+		
+		//Printing out the index 
+		System.out.println("ATG was found at index: " + stop);
+		
 	}
 
 }
